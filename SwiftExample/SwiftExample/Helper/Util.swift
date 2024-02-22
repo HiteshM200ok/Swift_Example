@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 class Util {
-    func validateTextField(textField: UITextField) -> Bool {
+    static func validateTextField(textField: UITextField) -> Bool {
         guard let text = textField.text, !text.isEmpty else {
             // Text field is empty
             return false
